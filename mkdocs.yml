@@ -61,7 +61,7 @@ plugins:
       copyright: "CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)"
       cover_logo: images/aashto-ite-nema.png
       cover_subtitle: "https://MInsignares.github.io/cwz-test/latest/"
-      enabled_if_env: EXPORT_PDF
+      enabled_if_env: "EXPORT_PDF"
       output_path: pdf/document.pdf
       ordered_chapter_level: 0
       verbose: false
