@@ -1,8 +1,8 @@
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-  <img alt="Connected Work Zones Implementation Guide and Standard" src="docs/images/aashto-ite-nema.png">
-  <h1>Connected Work Zones Implementation Guide and Standard</h1>
-  <strong>An open-source specification developed for AASHTO / ITE / NEMA</strong>
+ <img alt="Connected Work Zones Implementation Guide and Standard" src="docs/images/aashto-ite-nema.png">
+ <h1>Connected Work Zones Implementation Guide and Standard</h1>
+ <strong>An open-source specification developed for AASHTO / ITE / NEMA</strong>
 </div>
 <!-- markdownlint-enable MD033 -->
 
@@ -22,8 +22,7 @@
 
 ## Installation Instructions
 
-The current version of the document is available as a [website](https://ite-org.github.io/cwz/) or as a [pdf file](https://ite-org.github.io/cwz/pdf/document.pdf) that can be downloaded. Contributors will need to
-[fork](https://ite-org.github.io/cwz/contributor-responsibilities/#fork-the-repository) and [clone](https://ite-org.github.io/cwz/contributor-responsibilities/#clone-the-repository) the repository and [establish the development environment](https://ite-org.github.io/cwz/contributor-responsibilities/#install-software) on their local machine so that they can ensure that their edits are rendered as expected.
+The current version of the document is available as a [website](https://ite-org.github.io/cwz/) or as a [pdf file](https://ite-org.github.io/cwz/pdf/document.pdf) that can be downloaded. Contributors will need to fork and clone the repository and establish the development environment on their local machine so that they can ensure that their edits are rendered as expected.
 
 This project uses the following tools:
 - Git
