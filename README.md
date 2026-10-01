@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 -->
 <div style="text-align: center;">
-  <img alt="Connected Work Zones Implementation Guide and Standard" src="images/aashto-ite-nema.png">
+  <img alt="Connected Work Zones Implementation Guide and Standard" src="docs/images/aashto-ite-nema.png">
   <h1>Connected Work Zones Implementation Guide and Standard</h1>
   <strong>An open-source specification developed for AASHTO / ITE / NEMA</strong>
 </div>
