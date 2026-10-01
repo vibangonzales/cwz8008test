@@ -42,7 +42,7 @@ One disadvantage is that it requires data consumers to have confidence that they
 
 CWZ deployers need open and public access to open-source software and documentation to foster experimentation and application of the CWZ standard. For example, since 2023, the WZDx open GitHub repository provides access for potential CWZ deployers to gain knowledge and experience in CWZ standards application. 
 
-## **Rationale** : 
+**Rationale** : 
 
 - As stated, this is a goal. 
 
@@ -154,9 +154,9 @@ CWZ deployers have the following concerns about mandatory and optional elements:
 
 - Stakeholders involved in standards development tend to make data elements optional when: 
 
-   - They cannot reach consensus agreement, or 
+ - They cannot reach consensus agreement, or 
 
-   - They anticipate that they will not be able to provide the data specified by the standard. 
+ - They anticipate that they will not be able to provide the data specified by the standard. 
 
 CWZ deployers need greater consensus agreement on what is essential (i.e., mandatory). 
 
@@ -400,11 +400,11 @@ CWZ data providers need to provide crash counts over a period of time when provi
 
 - Data may come from: 
 
-   - Attenuators have crash counts. 
+ - Attenuators have crash counts. 
 
-   - Extract from CAN-bus data. 
+ - Extract from CAN-bus data. 
 
-   - First responder records. 
+ - First responder records. 
 
 - Put in parking lot. There are different ways to get this information. 
 
@@ -444,9 +444,9 @@ CWZ data providers need to provide the zone identifier associated with the speed
 
 - Zone Identifiers are only needed for Devices to identify which zone the device is associated with. 
 
-   - VRU is covered under Device. 
+ - VRU is covered under Device. 
 
-   - Work Vehicle is covered under Device. 
+ - Work Vehicle is covered under Device. 
 
 - There is no need to identify zone identifiers for these attributes of work zones. 
 
@@ -456,7 +456,7 @@ CWZ data providers need to provide the zone identifier associated with the speed
 
 ## **E.1.4 Operational Scenarios** 
 
-## **<u>VRU Safety</u> –** **<u>Zone Intrusion Detection and Notification Alerts (OUT OF SCOPE)</u>** 
+**VRU Safety –** **Zone Intrusion Detection and Notification Alerts (OUT OF SCOPE)** 
 
 |Title|VRU Safety–Zone Intrusion Detection|
 |---|---|
@@ -474,21 +474,30 @@ CWZ data providers need to provide the zone identifier associated with the speed
 
  This scenario is out of scope of this standard and should be removed. 
 
-
-
-<!-- Start of picture text -->
-WZ Data Collection  – From Devices (OUT OF SCOPE)<br>Title WZ Data Collection – From Devices<br>Problem  A work zone center needs to collect information gathered by work zone devices.<br>Aspect<br>Description A connected work zone may require the use of devices that gather data such as GPS<br>location or vehicle speeds. These devices may be directly connected to the work zone<br>center for maximum utility. A device may be work zone equipment such as a camera or<br>traffic sensor.<br>Pre- The work zone device is powered on and configured.<br>Conditions The work zone device is connected to the work zone center.<br>Optional<br>Diagram<br>Work Zone  1 Work Zone<br>Device Center<br>Narrative  The work zone device sends information to the work zone center continuously,<br>and  periodically, or as relevant events happen.<br>Sequence of<br>Steps<br>End  The work zone center receives the data collected by the work zone device.<br>Conditions<br>or State<br>Scenario  This may also apply to work zone vehicles and VRUs.<br>Extensions<br><!-- End of picture text -->
+| Title | WZ Data Collection – From Devices  |
+| -- | -- |
+| Problem Aspect  | A work zone center needs to collect information gathered by work zone devices. |
+| Description | A connected work zone may require the use of devices that gather data such as GPS location or vehicle speeds. These devices may be directly connected to the work zone center for maximum utility. A device may be work zone equipment such as a camera or traffic sensor. |
+| Pre-Conditions  | The work zone device is powered on and configured. The work zone device is connected to the work zone center.  |
+| Optional Diagram  | ![Picture 1](images/Picture1.png)  |
+| Narrative and Sequence of Steps | The work zone device sends information to the work zone center continuously, periodically, or as relevant events happen. |
+| End Conditions or State | The work zone center receives the data collected by the work zone device.  |
+| Scenario Extensions | This may also apply to work zone vehicles and VRUs.  |
 
 **Rationale:** CWZ WG Discussion. 
 
  This scenario is out of scope of this standard and should be removed. 
 
-## **<u>2.6.6 Generic Work Zone Information Data Exchange (Change-driven Updates)</u>** 
+**2.6.6 Generic Work Zone Information Data Exchange (Change-driven Updates)** 
 
-
-
-<!-- Start of picture text -->
-Title Generic Work Zone Data Exchange (Change-driven Updates)<br>Problem  A data consumer has a prior data set of work zone information that needs to be<br>Aspect updated. A data provider needs to send only information updates to allow the data<br>consumer's data set to be current.<br>Description When a data provider has new information, possibly due to an event, the data provider<br>needs to update a data consumer with information to bring the data consumer's data<br>set up-to-date. This may be a work zone needing to update a data consumer about a<br>new vehicle or VRU position, or changes in speed limits within a zone.<br>Pre-  The data consumer is an authorized connection to the data provider.<br>Conditions  The data provider has new information that needs to be communicated to a data<br>consumer.<br>Optional<br>Diagram<br>Data  1 Data<br>Provider Consumer<br>Narrative  1) The data provider sends updated information to the data consumer.<br>and<br>Sequence of<br>Steps<br>End  The data consumer has up-to-date information about work zones and conditions.<br>Conditions<br>or State<br><!-- End of picture text -->
+|Title| Generic Work Zone Data Exchange (Change-driven Updates) |
+| -- | --|
+|Problem Aspect | A data consumer has a prior data set of work zone information that needs to be updated. A data provider needs to send only information updates to allow the data consumer's data set to be current.|
+| Description | When a data provider has new information, possibly due to an event, the data provider needs to update a data consumer with information to bring the data consumer's data set up-to-date. This may be a work zone needing to update a data consumer about a new vehicle or VRU position, or changes in speed limits within a zone.|
+| Pre-Conditions |• The data consumer is an authorized connection to the data provider. • The data provider has new information that needs to be communicated to a data consumer. |
+|Optional Diagram | ![Picture 2](images/Picture2.png)|
+| Narrative and Sequence of Steps | 1) The data provider sends updated information to the data consumer.|
+| End Conditions or State | The data consumer has up-to-date information about work zones and conditions |
 
 **Rationale:** CWZ WG Discussion. 
 
@@ -496,16 +505,13 @@ Title Generic Work Zone Data Exchange (Change-driven Updates)<br>Problem  A data
 
 ## **E.1.5 Relationship to ARC-IT** 
 
-## **ARC-IT Work Zone Safety Monitoring Service Package [2.8.2] (OUT OF SCOPE)** 
+**ARC-IT Work Zone Safety Monitoring Service Package [2.8.2] (OUT OF SCOPE)** 
 
-<u>MC07: Work Zone Safety Monitoring. This service package provides warnings to maintenance personnel</u> within a work zone about potential hazards within the work zone. It enables vehicles or the infrastructure to provide warnings to workers in a work zone when a vehicle is moving in a manner that appears to create an unsafe condition (e.g., moving at high speed or entering the work zone). 
+MC07: Work Zone Safety Monitoring. This service package provides warnings to maintenance personnel within a work zone about potential hazards within the work zone. It enables vehicles or the infrastructure to provide warnings to workers in a work zone when a vehicle is moving in a manner that appears to create an unsafe condition (e.g., moving at high speed or entering the work zone). 
 
+![Figure 6](images/fig6.jpg)
 
-
-<!-- Start of picture text -->
-(2C) work zone warning device control<br>(2C) work zone warning status<br>Maint and Constr ITS Roadway river information. driver information<br>Management Center| (28)workzonetraffic detectorwarning Gevcecontrol Equipment ‘OtherMCV OBES:<br>control (2A) traffic detector control + 2A) work:<br>4, 20) atte detector cata, video survellance control (2A) workzone<br>‘work zone warning status q 2A)wratfcmagetraffictratedetectormages mete  data+ deta + warning ncafieaion<br>cM Work Zone Roadway workzone Jie-—2229°2 Taintand Const | Personne<br>(28) work zone caus‘stationtrafic arg personnellupdates wongwazone| VehicleinandtatanOBE<br>ai wee) |i2a) workzone warning ;<br>application |notification Personnel Device<br>status (28) personnel_ |<br>(28) work 2Assf warming14) coonprsonnel_fet 118safetyTeton personne warning © I] sevwontorirg vente safety<br>wot Leer IF sonnel Work Zone<br>‘applicationine i Safety<br>|,L oadsieGemected EquipmentVehicle (2a)caton vehicle| | sgnage 24) vehicle<br>(2A) work zone warning notification anemotion data<br>(2A) veil catioa d n  mation ——<br>SE Work Zone sa<br>(a seat Treo azo [var]<br><!-- End of picture text -->
-
-## **ARC-IT – Work Zone Safety Service Package Diagram [Figure 6].** 
+**ARC-IT – Work Zone Safety Service Package Diagram [Figure 6].** 
 
 **Rationale:** CWZ WG Discussion. 
 
@@ -641,7 +647,7 @@ Typically, for IOOs, if the device feed matches a planned project, then that bec
 
 - There was additional support for the statement that the WZFeed shall be freely available 
 
-   - and that this should be stated in an agreement. 
+ - and that this should be stated in an agreement. 
 
 - The WG collectively agreed to remove this section after much discussion. 
 
