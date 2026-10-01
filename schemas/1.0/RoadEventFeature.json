@@ -119,7 +119,7 @@
                             "type": "number",
                             "minimum": 0
                         },
-                        "reference_post_unit": {
+                        "reference_post_unit ": {
                             "description": "The unit used for reference post.",
                             "$ref": "#/definitions/UnitOfMeasurement"
                         },
@@ -673,4 +673,3 @@
         }
     }
 }
-
